@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- start normailze  -->
+    <link rel="stylesheet" href="../src/css/normailze.css" />
+    <!-- start global rules -->
+    <link rel="stylesheet" href="../src/css/global.css" />
+    <!-- start fontawsome -->
+    <link rel="stylesheet" href="../src/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font goole -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- start tailwind -->
+    <link rel="stylesheet" href="./output.css" />
+    <!-- main file -->
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <title>NETURHOMEDES</title>
+  </head>
+  <body>
+    <header
+      class="flex justify-between align-middle items-center py-5 px-6 text-white"
+    >
+      <!-- start icon for top  -->
+      <i
+        class="fa-solid fa-arrow-up fixed p-3 text-sm bg-zinc-800 hover:bg-zinc-900 rounded-md text-gray-100 bottom-10 cursor-pointer right-10 hidden"
+        id="scrollToTopBtn"
+      ></i>
+      <!-- end icon for top  -->
+      <div class="logo flex gap-3 items-center cursor-pointer">
+        <i class="fa-solid fa-house-flood-water text-1xl"></i>
+        <h3 class="text-lg"><a href="index.html">NETURHOMEDES</a></h3>
+      </div>
+      <i class="fa-solid fa-bars cursor-pointer hidden" id="showButton"></i>
+      <nav id="megaMenu" class="">
+        <ul class="flex gap-10">
+          <li><a href="">STORE</a></li>
+          <li><a href="#our-product">MATERIALS</a></li>
+          <li><a href="#about-us">ABOUT US</a></li>
+          <li><a href="#subscribe">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- start hero -->
+    <div class="hero">
+      <div class="container flex justify-between gap-32 items-center">
+        <div class="text-center w-full flex tiny-container">
+          <!-- curvey title  -->
+          <div class="circle">
+            <div class="circle-text-1">
+              <h1>DISCOVER THE NEW AUTUMN WINTER COLLECTION WITH NATURAL</h1>
+            </div>
+          </div>
+          <!-- curvey title  -->
+          <img
+            src="../src/imgs/2.png"
+            alt="home_feature"
+            width="420px"
+            class="m-auto img-2"
+          />
+        </div>
+        <div class="block text-center">
+          <p class="py-4 text-lg">NEW CATALOG</p>
+          <h2 class="text-5xl font-bold pb-4">NATURAL</h2>
+          <h2 class="text-5xl font-bold pb-4">HOME DECOR</h2>
+          <p class="py-10 sm:py-2x leading-6">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
+            dolorum vel exercitationem debitis iure repudiandae nam commodi,
+            sequi iste quasi neque amet fugiat vero
+          </p>
+          <button class="btn">Read More</button>
+          <img
+            src="../src/imgs/1.png"
+            alt="planets_home"
+            class="m-auto pt-10"
+            width="300"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- end hero -->
+
+    <!-- start section-1 -->
+    <div class="section-1">
+      <div
+        class="container flex m-auto align-middle items-center justify-center pb-10 pt-36 gap-10"
+      >
+        <div class="info">
+          <h2 class="text-5xl font-semibold">DOWNLOAD OUR NEW CATALOG</h2>
+          <p class="leading-8 pt-10 pb-10">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum,
+            nemo? Nemo eum quos provident iure, sint sapiente, ducimus
+            praesentium suscipit, iste accusamus qui necessitatibus facere optio
+            iusto placeat non eveniet.
+          </p>
+          <button class="btn">Download Now</button>
+        </div>
+        <img src="../src/imgs/3.png" alt="home-fondaitoin" />
+      </div>
+    </div>
+    <!-- end section-1 -->
+
+    <!-- strat our_prodect -->
+    <div class="our-product py-20" id="our-product">
+      <div class="container text-center m-auto pt-20">
+        <h2 class="text-5xl font-bold">OUR PRODUCTS</h2>
+        <p class="leading-8 py-3 px-5 mx-5">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum nihil
+          alias magnam recusandae culpa tempore eum, molestiae quis omnis vero
+          inventore quod vel deleniti suscipit a eius cumque itaque nostrum.
+        </p>
+        <div
+          class="items flex items-center justify-center py-10 gap-20 flex-wrap m-auto"
+        >
+          <div class="card">
+            <img src="../src/imgs/4.png" alt="home-armchair" />
+            <span>BLUE ARMCHAIR</span>
+          </div>
+          <div class="card">
+            <img src="../src/imgs/5.png" alt="home-sofa" />
+            <span>GRAY SOFA</span>
+          </div>
+          <div class="card">
+            <img src="../src/imgs/6.png" alt="home-pot" />
+            <span>ROPE POT</span>
+          </div>
+        </div>
+        <button class="btn text-center">Shop Now</button>
+      </div>
+    </div>
+    <!-- end our_prodect -->
+    <!-- start about-us -->
+    <div class="about-us" id="about-us">
+      <div class="container m-auto">
+        <div class="info">
+          <h2 class="text-5xl font-bold">ABOUT US</h2>
+          <p class="leading-8 py-10">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus
+            laboriosam at ut odit, corporis <br />nemo aspernatur dolores ipsa,
+            dolorum esse debitis non iure<br />
+            nam expedita eligendi quo odio aperiam? Dolorum!
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+        <img
+          src="../src/imgs/7.png"
+          alt="howe-living-room"
+          class=""
+          width="400px"
+        />
+      </div>
+    </div>
+    <!-- end about-us -->
+    <!-- start our-work -->
+    <div class="our-work">
+      <div class="container m-auto text-center py-20">
+        <h2 class="text-5xl font-bold">OUR WORK</h2>
+        <p class="py-10 leading-7">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem in
+          omnis, similique <br />incidunt corporis hic voluptates fuga a
+          pariatur et blanditiis cumque totam officiis provident quibusdam ipsum
+          quas labore.
+        </p>
+        <img src="../src/imgs/8.png" alt="plant-home" class="w-full" />
+        <button class="btn mt-10">Read More</button>
+      </div>
+    </div>
+    <!-- end our-work -->
+    <!-- start new recyclable -->
+    <div class="new-reacyclable py-32">
+      <div class="container">
+        <div class="info">
+          <h2 class="text-5xl font-bold">NEW RECYCLABEL <br />MATARIALS</h2>
+          <p class="py-8 leading-7">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
+            optio debitis, excepturi ,<br />qui est labore sit vero harum
+            possimus saepe repellat nam id officia odio animi doloribus.<br />
+            Consectetur, iste maxime?
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+        <img
+          src="../src/imgs/11.png"
+          alt="chair-home"
+          width="800px"
+          class="img-11"
+        />
+        <img src="../src/imgs/9.png" alt="chair" class="img-9" />
+      </div>
+    </div>
+    <!-- end new recyclable -->
+
+    <!-- start contact -->
+    <div class="contact">
+      <div class="container text-center m-auto py-10">
+        <h2 class="text-5xl font-bold">contact</h2>
+        <p class="py-10 leading-7">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, sed
+          molestias. Nostrum, quisquam officiis
+          <br />
+          voluptatum debitis necessitatibus ab, velit cumque molestias facere
+          illum perferendis magnam ratione optio similique ipsa aliquam.
+        </p>
+
+        <img src="../src/imgs/12.png" class="w-full" alt="map-company" />
+
+        <button class="btn mt-10">contact</button>
+      </div>
+    </div>
+    <!-- end contact -->
+    <!-- start subscribe -->
+
+    <div class="subscribe py-20" id="subscribe">
+      <div class="container flex items-center justify-between gap-10 m-auto">
+        <div class="info w-5/12">
+          <h2 class="text-5xl font-bold pb-10">
+            SUBSCRIBE TO <br />
+            OUR NEWSLETTER
+          </h2>
+          <p class="leading-7">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            eveniet voluptatum quisquam esse eaque, magni excepturi, molestias
+            doloribus consequuntur rerum vero sit ipsa delectus quibusdam
+            accusantium! Sunt facilis sint qui?
+          </p>
+          <button class="btn mt-10">Subscribe</button>
+        </div>
+        <div class="input">
+          <div class="name">
+            <label for="name">Name : </label>
+            <input id="name" type="text" />
+          </div>
+          <div class="surname">
+            <label for="surname">Surname : </label>
+            <input id="surname" type="text" />
+          </div>
+          <div class="email">
+            <label for="email">Email : </label>
+            <input id="email" type="email" />
+          </div>
+          <div class="password">
+            <label for="password">password : </label>
+            <input id="password" type="password" />
+          </div>
+          <div class="text-area">
+            <label for="massage">massage : </label>
+            <textarea id="massage"></textarea>
+          </div>
+          <p class="text-white pt-5 leading-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            perspiciatis et quod illum quia aliquam. Inventore eligendi expedita
+            nisi. Tenetur non unde sed iusto voluptas aperiam, deleniti expedita
+            eos reprehenderit!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- end subscribe -->
+
+    <!-- start footer -->
+    <footer class="pt-32 px-8">
+      <div class="logo flex gap-1 flex-col w-fit items-center cursor-pointer">
+        <i class="fa-solid fa-house-flood-water text-1xl"></i>
+        <h3 class="text-lg"><a href="index.html">NETURHOMEDES</a></h3>
+      </div>
+      <div class="nav flex pb-32 pt-20 gap-20">
+        <ul class="flex flex-col gap-3">
+          <li><a href="">STORE</a></li>
+          <li><a href="#our-product">MATERIALS</a></li>
+          <li><a href="#about-us">ABOUT US</a></li>
+          <li><a href="#subscribe">CONTACT</a></li>
+        </ul>
+        <ul class="flex flex-col gap-3">
+          <li><a href="">COOKIES</a></li>
+          <li><a href="">PROVACY POLICY</a></li>
+          <li><a href="">FAQS</a></li>
+        </ul>
+      </div>
+      <div class="copywrite flex justify-evenly items-center border-t-2 py-10">
+        <div>
+          COPYWRITE |
+          <a class="text-blue-800" href="https://github.com/yossefsabry"
+            >YOSSEFSABRY</a
+          >@
+        </div>
+        <div class="social-media flex">
+          <i class="fa-brands fa-instagram text-orange-800 p-2"></i>
+          <i class="fa-brands fa-facebook text-blue-600 p-2"></i>
+          <i class="fa-brands fa-twitter text-blue-400 p-2"></i>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <script src="../src/js/script.js"></script>
+    <!-- curvey title -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
+
+    <script>
+      $(function () {
+        $("h1").lettering();
+      });
+    </script>
+    <!-- end curvey title -->
+  </body>
+</html>
